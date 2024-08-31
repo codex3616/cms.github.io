@@ -1,0 +1,27 @@
+.singleConf {
+  width: 90%;
+  margin: 0 auto;
+  cursor: pointer;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.639);
+
+  .link {
+    position: relative;
+    .indicator {
+      position: absolute;
+      right: 1.4rem;
+      top: 1.7rem;
+      width: 0.6rem;
+      height: 0.6rem;
+      border-radius: 10rem;
+      background-color: white;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      font-size: 1.3rem;
+      padding: 1rem 0;
+    }
+  }
+}

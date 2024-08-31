@@ -1,0 +1,19 @@
+.singleUser {
+  width: 100%;
+  &:nth-of-type(1) {
+    margin-top: 1rem;
+  }
+  .container {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    svg {
+      color: rgb(143, 6, 6);
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+  }
+}
